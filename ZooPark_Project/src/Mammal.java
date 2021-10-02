@@ -1,4 +1,10 @@
 public class Mammal extends Animal {
+  
+    int yearsToLive;
+
+   public Mammal(int age, String name, String color) {
+        super(age, name, color);
+    }
 
     public void isVertebrate(){
         System.out.println("The mammal is vertebrate");
@@ -9,7 +15,11 @@ public class Mammal extends Animal {
     }
 
     @Override
+    public void eating() {
+        System.out.println(".......");
+
+          @Override
     public String toString() {
-        return "Mammal{}";
+        return "Mammal{}"
     }
 }
