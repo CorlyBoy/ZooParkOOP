@@ -1,4 +1,5 @@
 public abstract class Animal {
+
     int age;
     String name;
     String color;
@@ -25,6 +26,10 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{}";
+        return "Animal{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
     }
 }

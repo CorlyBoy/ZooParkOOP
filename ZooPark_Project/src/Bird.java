@@ -14,13 +14,19 @@ public class Bird extends Animal {
     public void isFlying(){
         System.out.println("The bird is flying");
     }
-  
+
     @Override
     public void eating() {
         System.out.println("...");
-      
+    }
+
     @Override
     public String toString() {
-        return "Bird{}";
+        return "Bird{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", yearsToLive=" + yearsToLive +
+                '}';
     }
 }
