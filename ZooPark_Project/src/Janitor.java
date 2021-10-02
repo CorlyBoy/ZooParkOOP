@@ -11,4 +11,7 @@ public class Janitor extends Employee{
         System.out.println("That employee takes care of the animals");
     }
 
+    public void isStandingAtTheEntrace(){
+        System.out.println("The janitor is standing at the entrance");
+    }
 }
